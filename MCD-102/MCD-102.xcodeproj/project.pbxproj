@@ -19,6 +19,7 @@
 		20A1A0F3229CCAE400E8CA1F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A1A0EE229CCAE400E8CA1F /* LoginViewController.swift */; };
 		20A1A0FD229CCE8300E8CA1F /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A1A0FB229CCE8300E8CA1F /* ProductCollectionViewCell.swift */; };
 		20A1A0FE229CCE8300E8CA1F /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A1A0FC229CCE8300E8CA1F /* ProductCollectionViewCell.xib */; };
+		20A1A100229CD63700E8CA1F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A1A0FF229CD63700E8CA1F /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		20A1A0EE229CCAE400E8CA1F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20A1A0FB229CCE8300E8CA1F /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		20A1A0FC229CCE8300E8CA1F /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		20A1A0FF229CD63700E8CA1F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		20A1A0F6229CCE4200E8CA1F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				20A1A0FF229CD63700E8CA1F /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				20A1A0F3229CCAE400E8CA1F /* LoginViewController.swift in Sources */,
 				20A1A0FD229CCE8300E8CA1F /* ProductCollectionViewCell.swift in Sources */,
 				20A1A0F1229CCAE400E8CA1F /* HomeViewController.swift in Sources */,
+				20A1A100229CD63700E8CA1F /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

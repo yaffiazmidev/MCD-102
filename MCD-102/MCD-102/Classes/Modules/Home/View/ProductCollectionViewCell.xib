@@ -26,7 +26,7 @@
                         </constraints>
                     </imageView>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OOH-1Y-86n">
-                        <rect key="frame" x="8" y="100" width="186" height="49"/>
+                        <rect key="frame" x="8" y="108" width="186" height="49"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTW-i2-oWB">
                                 <rect key="frame" x="0.0" y="0.0" width="186" height="20.5"/>
@@ -49,13 +49,18 @@
                 <constraint firstAttribute="trailing" secondItem="3ci-q1-xIr" secondAttribute="trailing" id="9LC-1Y-FiB"/>
                 <constraint firstItem="3ci-q1-xIr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="EcK-Hm-OQG"/>
                 <constraint firstItem="OOH-1Y-86n" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="JFQ-r9-7Sp"/>
-                <constraint firstItem="OOH-1Y-86n" firstAttribute="top" secondItem="3ci-q1-xIr" secondAttribute="bottom" id="MH7-nU-jjs"/>
+                <constraint firstItem="OOH-1Y-86n" firstAttribute="top" secondItem="3ci-q1-xIr" secondAttribute="bottom" constant="8" id="MH7-nU-jjs"/>
                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OOH-1Y-86n" secondAttribute="bottom" id="Y1L-QU-omv"/>
                 <constraint firstAttribute="trailing" secondItem="OOH-1Y-86n" secondAttribute="trailing" constant="8" id="eDD-vA-sfy"/>
                 <constraint firstItem="3ci-q1-xIr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="irD-kT-8TU"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="202" height="211"/>
+            <connections>
+                <outlet property="productImage" destination="3ci-q1-xIr" id="iJr-jx-dnH"/>
+                <outlet property="productName" destination="wTW-i2-oWB" id="MXG-Ye-NtF"/>
+                <outlet property="productPrice" destination="SjA-kZ-RI4" id="Mlm-bd-MPj"/>
+            </connections>
             <point key="canvasLocation" x="259.19999999999999" y="226.23688155922042"/>
         </collectionViewCell>
     </objects>
