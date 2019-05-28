@@ -17,6 +17,8 @@
 		20A1A0F1229CCAE400E8CA1F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A1A0EB229CCAE400E8CA1F /* HomeViewController.swift */; };
 		20A1A0F2229CCAE400E8CA1F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A1A0ED229CCAE400E8CA1F /* LoginViewController.xib */; };
 		20A1A0F3229CCAE400E8CA1F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A1A0EE229CCAE400E8CA1F /* LoginViewController.swift */; };
+		20A1A0FD229CCE8300E8CA1F /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A1A0FB229CCE8300E8CA1F /* ProductCollectionViewCell.swift */; };
+		20A1A0FE229CCE8300E8CA1F /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A1A0FC229CCE8300E8CA1F /* ProductCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		20A1A0EB229CCAE400E8CA1F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		20A1A0ED229CCAE400E8CA1F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		20A1A0EE229CCAE400E8CA1F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		20A1A0FB229CCE8300E8CA1F /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		20A1A0FC229CCE8300E8CA1F /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,9 @@
 		20A1A0E9229CCAE400E8CA1F /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				20A1A0EA229CCAE400E8CA1F /* HomeViewController.xib */,
-				20A1A0EB229CCAE400E8CA1F /* HomeViewController.swift */,
+				20A1A0F6229CCE4200E8CA1F /* Model */,
+				20A1A0F4229CCE2E00E8CA1F /* View */,
+				20A1A0F5229CCE3700E8CA1F /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -117,6 +122,31 @@
 				20A1A0EE229CCAE400E8CA1F /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		20A1A0F4229CCE2E00E8CA1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20A1A0FB229CCE8300E8CA1F /* ProductCollectionViewCell.swift */,
+				20A1A0FC229CCE8300E8CA1F /* ProductCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20A1A0F5229CCE3700E8CA1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20A1A0EB229CCAE400E8CA1F /* HomeViewController.swift */,
+				20A1A0EA229CCAE400E8CA1F /* HomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20A1A0F6229CCE4200E8CA1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +209,7 @@
 			files = (
 				20A1A0F2229CCAE400E8CA1F /* LoginViewController.xib in Resources */,
 				20A1A0DE229CCAB000E8CA1F /* LaunchScreen.storyboard in Resources */,
+				20A1A0FE229CCE8300E8CA1F /* ProductCollectionViewCell.xib in Resources */,
 				20A1A0DB229CCAB000E8CA1F /* Assets.xcassets in Resources */,
 				20A1A0D9229CCAAF00E8CA1F /* Main.storyboard in Resources */,
 				20A1A0F0229CCAE400E8CA1F /* HomeViewController.xib in Resources */,
@@ -196,6 +227,7 @@
 				20A1A0D4229CCAAF00E8CA1F /* AppDelegate.swift in Sources */,
 				20A1A0EF229CCAE400E8CA1F /* CustomTextField.swift in Sources */,
 				20A1A0F3229CCAE400E8CA1F /* LoginViewController.swift in Sources */,
+				20A1A0FD229CCE8300E8CA1F /* ProductCollectionViewCell.swift in Sources */,
 				20A1A0F1229CCAE400E8CA1F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
